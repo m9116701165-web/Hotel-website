@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel | Jaipur</title>
+<meta name="description" content="Hotel in Jaipur — comfortable rooms and a convenient stay. Contact us on WhatsApp for booking enquiries.">
+<style>
+:root{--dark:#211a16;--gold:#b58b4c;--cream:#faf7f1;--text:#2c2926}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
+header{position:sticky;top:0;z-index:10;background:rgba(33,26,22,.96);color:#fff;padding:14px 6%;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:25px;font-weight:700;letter-spacing:1px}.logo span{color:#d8b477}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{min-height:78vh;display:flex;align-items:center;padding:80px 7%;color:#fff;background:linear-gradient(90deg,rgba(20,15,12,.82),rgba(20,15,12,.28)),url('images/room-7.jpg') center/cover}
+.hero h1{font-size:clamp(42px,7vw,76px);margin:0 0 12px}.hero p{font-size:20px;max-width:600px}
+.btn{display:inline-block;background:var(--gold);color:#fff;text-decoration:none;padding:13px 22px;border-radius:6px;font-weight:700;margin-top:12px}
+section{padding:70px 7%}.section-title{text-align:center;margin-bottom:40px}
+.section-title h2{font-size:34px;margin:0}.section-title p{color:#70675f}
+.about{max-width:850px;margin:auto;text-align:center}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1100px;margin:auto}
+.card{background:#fff;padding:25px;border-radius:10px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.06)}
+.card b{display:block;margin:8px 0}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gallery img{width:100%;height:260px;object-fit:cover;border-radius:10px;cursor:pointer}
+.booking{background:var(--dark);color:#fff;text-align:center}.booking h2{font-size:36px;margin-top:0}
+footer{background:#17120f;color:#ddd;text-align:center;padding:28px 7%}
+.float{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;text-decoration:none;padding:14px 20px;border-radius:999px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:20}
+@media(max-width:800px){nav{display:none}.features{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:190px}}
+@media(max-width:500px){section{padding:52px 5%}.features,.gallery{grid-template-columns:1fr}.hero{min-height:70vh;padding:60px 6%}.gallery img{height:240px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">HOTEL <span>JAIPUR</span></div>
+  <nav><a href="#about">About</a><a href="#facilities">Facilities</a><a href="#gallery">Gallery</a><a href="#booking">Book</a></nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <p>WELCOME TO</p>
+    <h1>Hotel</h1>
+    <p>Comfortable rooms, a welcoming atmosphere and a convenient stay in Jaipur.</p>
+    <!-- Replace the number in the WhatsApp link below before publishing. -->
+    <a class="btn" href="https://wa.me/918824770832?text=Hello%20Hotel%2C%20I%20want%20to%20enquire%20about%20a%20room." target="_blank">Book on WhatsApp</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-title"><h2>Stay With Comfort</h2><p>A simple, comfortable place to stay in Jaipur.</p></div>
+  <div class="about"><p>Welcome to Hotel. Our rooms are designed for a relaxed stay, with comfortable beds, TV, air-conditioning and a clean, welcoming environment.</p></div>
+</section>
+
+<section id="facilities">
+  <div class="section-title"><h2>Our Facilities</h2><p>Everything you need for a comfortable stay.</p></div>
+  <div class="features">
+    <div class="card">🛏️<b>Comfortable Rooms</b><span>Relax after a day in Jaipur.</span></div>
+    <div class="card">📺<b>TV</b><span>Entertainment in your room.</span></div>
+    <div class="card">❄️<b>Air Conditioning</b><span>Comfortable room environment.</span></div>
+    <div class="card">💬<b>WhatsApp Booking</b><span>Easy booking enquiries.</span></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="section-title"><h2>Gallery</h2><p>Take a look at our rooms and hotel spaces.</p></div>
+  <div class="gallery">
+    <img src="images/room-1.jpg" alt="Hotel room and interior photo 1" loading="lazy">
+    <img src="images/room-2.jpg" alt="Hotel room and interior photo 2" loading="lazy">
+    <img src="images/room-3.jpg" alt="Hotel room and interior photo 3" loading="lazy">
+    <img src="images/room-4.jpg" alt="Hotel room and interior photo 4" loading="lazy">
+    <img src="images/room-5.jpg" alt="Hotel room and interior photo 5" loading="lazy">
+    <img src="images/room-6.jpg" alt="Hotel room and interior photo 6" loading="lazy">
+    <img src="images/room-7.jpg" alt="Hotel room and interior photo 7" loading="lazy">
+    <img src="images/room-8.jpg" alt="Hotel room and interior photo 8" loading="lazy">
+    <img src="images/room-9.jpg" alt="Hotel room and interior photo 9" loading="lazy">
+    <img src="images/room-10.jpg" alt="Hotel room and interior photo 10" loading="lazy">
+    <img src="images/room-11.jpg" alt="Hotel room and interior photo 11" loading="lazy">
+  </div>
+</section>
+
+<section id="booking" class="booking">
+  <h2>Ready to Book?</h2>
+  <p>Message us on WhatsApp for room availability and booking enquiries.</p>
+  <a class="btn" href="https://wa.me/918824770832?text=Hello%20Hotel%2C%20I%20want%20to%20book%20a%20room." target="_blank">WhatsApp Us</a>
+  <p style="font-size:14px;opacity:.75;margin-top:22px">Jaipur, Rajasthan</p>
+</section>
+</main>
+
+<footer>© 2026 Hotel, Jaipur. All rights reserved.</footer>
+<a class="float" href="https://wa.me/918824770832?text=Hello%20Hotel%2C%20I%20want%20to%20enquire%20about%20a%20room." target="_blank">WhatsApp</a>
+</body>
+</html>
